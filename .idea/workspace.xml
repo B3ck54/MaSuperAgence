@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5094ec9-e7e8-48c3-ad2d-fca7a3e2996c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Entity/PropertySearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/PropertySearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/property/_property.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MaSuperAgence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MaSuperAgence.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PropertyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/PropertyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/Propertyfixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/Propertyfixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/PropertyRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/PropertyRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/property/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/property/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="c5094ec9-e7e8-48c3-ad2d-fca7a3e2996c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,18 +397,17 @@
       <workItem from="1549357479996" duration="4623000" />
       <workItem from="1549367181588" duration="865000" />
       <workItem from="1549372373748" duration="8969000" />
-      <workItem from="1549530779858" duration="9034000" />
+      <workItem from="1549530779858" duration="10051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76766000" />
+    <option name="totallyTimeSpent" value="77783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1676" y="0" width="1332" height="1014" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7494781" visible="true" weight="0.25943395" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7494781" visible="true" weight="0.25943395" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.106856085" />
       <window_info id="Favorites" order="2" sideWeight="0.25052193" side_tool="true" weight="0.018529957" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,8 +421,8 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49816626" weight="0.34266517" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5503145" visible="true" weight="0.46538025" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.44968554" side_tool="true" visible="true" weight="0.46538025" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.5495283" visible="true" weight="0.46538025" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.4504717" side_tool="true" visible="true" weight="0.46538025" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
