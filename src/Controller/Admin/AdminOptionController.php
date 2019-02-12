@@ -27,6 +27,8 @@ class AdminOptionController extends AbstractController
 
     /**
      * @Route("/new", name="admin.option.new", methods={"GET","POST"})
+     * @param Request $request
+     * @return Response
      */
     public function new(Request $request): Response
     {
