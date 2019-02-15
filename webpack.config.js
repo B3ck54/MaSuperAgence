@@ -39,9 +39,11 @@ Encore
     .enableVersioning(Encore.isProduction())
 
 
+    .configureBabel(function(babelConfig) {
+        // add additional presets
+         babelConfig.presets.push('es2017');
 
-
-
+    })
 
 
     // enables Sass/SCSS support
@@ -61,5 +63,7 @@ Encore
 var config = Encore.getWebpackConfig();
 config.externals.jquery ='jQuery'
 module.exports = config
+
+
 
 

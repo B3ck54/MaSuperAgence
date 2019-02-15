@@ -36,7 +36,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/knplabs/knp-components" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/knplabs/knp-paginator-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/liip/imagine-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/limenius/react-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/limenius/react-renderer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/nacmartin/phpexecjs" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ocramius/package-versions" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ocramius/proxy-manager" />
@@ -127,5 +130,6 @@
     <orderEntry type="library" name="bootstrap" level="application" />
     <orderEntry type="library" name="@types/webpack-assets-manifest" level="application" />
     <orderEntry type="library" name="@types/webpack-manifest-plugin" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>

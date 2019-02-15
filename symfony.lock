@@ -128,8 +128,17 @@
             "ref": "523b4b0cfb88dc8637cb56e427e6be7718bdce32"
         }
     },
+    "limenius/react-bundle": {
+        "version": "v3.0.1"
+    },
+    "limenius/react-renderer": {
+        "version": "v3.0.0"
+    },
     "monolog/monolog": {
         "version": "1.24.0"
+    },
+    "nacmartin/phpexecjs": {
+        "version": "v2.0.0"
     },
     "nikic/php-parser": {
         "version": "v4.2.0"

@@ -4,14 +4,30 @@
  * We recommend including the built version of this JavaScript file
  * (and its CSS file) in your base layout (base.html.twig).
  */
-var $ = require ('jquery')
+
+// import Places from 'place.js'
+
+let inputAddress = document.querySelector("#property_adress")
+if (inputAddress !== null) {
+    let place = Places({
+        container: inputAddress
+    })
+    place.on('change',e =>{
+        document.querySelector('#property_city').value = e.suggestion.city
+        document.querySelector('#property_postal_code').value = e.suggestion.postcode
+        document.querySelector('#property_lat').value = e.suggestion.latlng.lat
+        document.querySelector('#property_lng').value = e.suggestion.latlng.lng
+    })
+}
+
+
+let $ = require ('jquery')
 /* any CSS you require will output into a single css file (app.css in this case)*/
 require('../css/app.css');
 
 require('select2')
-
 $('select').select2()
-var $contactButton = $('#contactButton')
+let $contactButton = $('#contactButton')
 $contactButton.click(e => {
     e.preventDefault()
     $('#contactForm').slideDown();

@@ -31,11 +31,18 @@
 </div>
 
 <div class="row">
-    <div class="col-md-2">{{ form_row(form.pictureFiles) }}</div>
-    <div class="col-md-3">{{ form_row(form.adress) }}</div>
-    <div class="col-md-2">{{ form_row(form.city) }}</div>
-    <div class="col-md-2">{{ form_row(form.postal_code) }}</div>
+    <div class="col-md-10">{{ form_row(form.pictureFiles) }}</div>
     <div class="col-md-2">{{ form_row(form.sold) }}</div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">{{ form_row(form.adress) }}</div>
+    <div class="col-md-2">{{ form_row(form.postal_code) }}</div>
+    <div class="col-md-2">{{ form_row(form.city) }}</div>
+</div>
+
+<div class="row">
+<div class="col-md-2">{{ form_row(form.options) }}</div>
 </div>
 
 {{ form_rest(form) }}

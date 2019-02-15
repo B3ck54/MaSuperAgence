@@ -44,6 +44,8 @@ class PropertyType extends AbstractType
             ->add('city')
             ->add('adress')
             ->add('postal_code')
+            ->add('lat')
+            ->add('lng')
             ->add('sold')
         ;
     }
